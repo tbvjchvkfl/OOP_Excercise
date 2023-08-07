@@ -84,5 +84,5 @@ int main()
 	(c.*ptr)(1.1f);
 
 	FPtr2 ptr2 = &MyClass::MyStaticFunction;
-	*ptr2(1);
+	(*ptr2)(1);
 }
